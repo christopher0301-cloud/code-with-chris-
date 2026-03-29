@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    background-color: rgba(10, 78, 78, 0.557);
+    font-family: "Inter", sans-serif;
+    color: white;
+    margin: 0;
+
+    
+    
+}
+header {
+    padding: 20px;
+    text-align: center;
+ 
+
+}
+
+h1 {
+    font-size: 2.5em;
+    background-color: cadetblue;
+    padding: 6px 12px;
+    display: inline-block;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #222;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+main{
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+.image-text-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+.image-text-container img{
+        width: 250px;
+        height: 250px;
+        object-fit:cover;
+    }
+.p1{
+    Font-size: 1.5em;
+    text-align: center;
+   
+}
+.p2{
+    Font-size: 1.25em;
+    text-align: right;
+    
+}
+   
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.box {
+    background-color:cadetblue;
+    padding: 20px;
+    color: white;
+}
