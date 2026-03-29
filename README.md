@@ -8,4 +8,4 @@ My first website built from scratch. Learning HTML, CSS, Flexbox, and Grid.
 - Flexbox pillars section
 - Image + text layout
 
-Live: 
+
