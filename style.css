@@ -1,27 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/*Colors
+Cyan 200:#a5f3fc
+Cyan 950:#083344
+Slate 500:#64748b
+Slate 50: #f8fafc*/
 
-body {
-    background-color: rgba(10, 78, 78, 0.557);
-    font-family: "Inter", sans-serif;
-    color: white;
-    margin: 0;
-
-    
-    
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
+ @media (min-width: 475px){
+    .container{
+        max-width: 475px;
+    }
+ }
+@media (min-width: 640px) {
+    .container{
+        max-width: 640px;
+    }
+}
+@media (min-width: 768px) {
+    .container{
+        max-width: 768px;
+    }
+}
+@media (min-width: 1024px) {
+    .container{
+        max-width: 1024px;
+    }
+}
+@media (min-width: 1280px) {
+    .container{
+        max-width: 1280px;
+    }
+}
+@media (min-width: 1536px) {
+    .container{
+        max-width: 1536px;
+    }
+}
+
+
 header {
     padding: 20px;
     text-align: center;
- 
-
 }
 
 h1 {
     font-size: 2.5em;
-    background-color: cadetblue;
     padding: 6px 12px;
     display: inline-block;
-
 }
 
 h2 {
@@ -33,12 +64,17 @@ nav{
     justify-content: center;
     gap: 30px;
 }
-
-nav a {
+nav a{
     text-decoration: none;
-    color: #222;
-    margin: 0 10px;
+    color:#64748b;
+    border-radius: 100px;
     font-weight: bold;
+    padding: 10px 15px;
+    background-color: #a5f3fc;
+    border-radius: 100px;}
+nav a:hover{
+    background-color: #64748b;
+    color: #f8fafc;
 }
 
 main{
@@ -55,19 +91,19 @@ section {
     
 }
 .image-text-container img{
-        width: 250px;
-        height: 250px;
+        width: 400px;
+        height: 400px;
         object-fit:cover;
+        box-shadow: #64748b 0px 4px 8px;
+        border-radius: 50px;
     }
 .p1{
-    Font-size: 1.5em;
+    font-size: 1.5em;
     text-align: center;
-   
 }
 .p2{
-    Font-size: 1.25em;
+    font-size: 1.25em;
     text-align: right;
-    
 }
    
 footer {
@@ -82,7 +118,9 @@ footer {
     flex-wrap: wrap;
 }
 .box {
-    background-color:cadetblue;
+    background-color:#a5f3fc;
     padding: 20px;
-    color: white;
+    color: #64748b;
+    border-radius: 100px;
+    font-weight:bold;
 }
